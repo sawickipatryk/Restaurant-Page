@@ -22,6 +22,7 @@
 <body>
 
     <header>
+        <div class="header__gradient"></div>
         <nav class="nav__container">
             <a
                 class="nav__logo"
@@ -64,24 +65,23 @@
             </button>
         </nav>
 
+        <div class="hero__info">
+            <h3 class="hero__sub-header">
+                welcome to our delicious courses
+            </h3>
+            <h1 class="hero__header">BEHIND THE DISHES</h1>
+            <p class="hero__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nihil
+                assumenda impedit cum sit
+                quia</p>
+            <a
+                class="hero__link button"
+                href="./#our__special"
+            >Learn More</a>
+        </div>
+
     </header>
 
     <main>
-
-        <section
-            class="hero"
-            id="hero"
-        >
-            <div class="hero__info">
-                <h3 class="hero__sub-header">
-                    welcome to our delicious courses
-                </h3>
-                <h1 class="hero__header">BEHIND THE DISHES</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nihil assumenda impedit cum sit
-                    quia, molestiae corrupti repudiandae unde ullam!</p>
-            </div>
-            <a href="./#our__special">Learn More</a>
-        </section>
 
         <section
             class="about"
@@ -89,12 +89,18 @@
         >
             <div class="about__container container">
                 <div class="about__text-container">
-                    <h3 class="about__sub-header"></h3>
-                    <h2 class="about__header"></h2>
+                    <h4 class="about__sub-header">special moments</h4>
+                    <h2 class="about__header">about us</h2>
                 </div>
                 <div class="about__cards">
-                    <div class="about__card"></div>
                     <div class="about__card">
+                        <img
+                            class="about__img"
+                            src="./assets/img/about1.jpg"
+                            alt=""
+                        >
+                    </div>
+                    <div class="about__card text-card">
                         <div class="card__text">
                             <h3 class="card__sub-header">Taste perception</h3>
                             <h2 class="card__header">Traditional & Modern</h2>
@@ -102,13 +108,20 @@
                                 Ipsam, culpa.</p>
                             <a
                                 href="#"
-                                class="card__sub-link"
+                                class="card__sub-link button"
                             >
                                 Read More</a>
                         </div>
                     </div>
-                    <div class="about__card"></div>
+                    <div class="about__card">
+                        <img
+                            class="about__img"
+                            src="./assets/img/about2.jpg"
+                            alt=""
+                        >
+                    </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -118,7 +131,7 @@
 
                 <div class="our-special__image-container">
                     <img
-                        src="./"
+                        src="./assets/img/ourSpecial.jpg"
                         alt="vegetables on plate"
                     >
                 </div>
