@@ -18,6 +18,10 @@
     font-weight: 600;
 }
 
+body {
+    background-color: #183D3D;
+}
+
 header {
     margin-top: 60px;
     position: relative;
@@ -299,4 +303,48 @@ header {
     text-decoration: none;
     display: inline-block;
 
+}
+
+.useful-tips__img-container {
+    display: none;
+}
+
+.best-special {
+    color: #fff;
+    padding: 30px 20px;
+    background-color: #183D3D;
+}
+
+.best-special__container {
+    background-color: #5C8374;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    height: 400px;
+}
+
+.best-special__sub-header {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Dancing Script', cursive;
+}
+
+.best-special__header {
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.best-special-text {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.best-special-link {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
 }
