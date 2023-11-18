@@ -348,3 +348,127 @@ header {
     text-decoration: none;
     margin-top: 15px;
 }
+
+.latest-news__header-container {
+    color: #fff;
+    text-align: center;
+}
+
+.latest-news__sub-header {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Dancing Script', cursive;
+}
+
+.latest-news__header {
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.latest-news__news-container {
+    padding: 30px 20px;
+}
+
+.latest-news__message-container {
+    background-color: #5C8374;
+    margin-bottom: 15px;
+}
+
+.latest-news__image {
+    width: 100%;
+}
+
+.latest-news__text-header {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.latest-news__text-container {
+    padding: 20px;
+    color: #fff;
+}
+
+.latest-news__span {
+    color: #C69749;
+    text-transform: uppercase;
+}
+
+.latest-news__text {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-us {
+    position: relative;
+    background-image: url(./assets/img/contactUs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.contact-us__container {
+    width: 100%;
+    background-color: #183D3D;
+    padding: 20px;
+}
+
+.contact-us__sub-header {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.contact-us__header {
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact-us__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-us__inputs-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-us__input,
+.contact-us__textarea {
+    width: 100%;
+    background-color: #5C8374;
+    font-size: 16px;
+    padding: 15px 10px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.contact-us__input::placeholder,
+.contact-us__textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-us__textarea {
+    resize: none;
+    height: 150px;
+}
