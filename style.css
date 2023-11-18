@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    /* scroll-behavior: smooth; */
 }
 
 .button {
@@ -82,6 +83,10 @@ header {
     height: 100vh;
     list-style: none;
     background-color: #fff;
+}
+
+.nav__links.active {
+    display: flex;
 }
 
 .nav__link {
@@ -238,7 +243,6 @@ header {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr auto;
-    /* justify-content: space-between; */
     width: 100%;
     margin-bottom: 5px;
 }
@@ -250,12 +254,49 @@ header {
     width: 90%;
 }
 
-.menu-option__name {}
-
 .menu-opion__description {
     color: rgba(255, 255, 255, 0.7);
 }
 
 .menu-option__price {
     margin-left: 5px;
+}
+
+.useful-tips {
+    color: #fff;
+    padding: 30px 20px;
+    background-color: #183D3D;
+}
+
+.useful-tips__sub-header {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Dancing Script', cursive;
+}
+
+.useful-tips__header {
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.useful-tips__tip-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 140%;
+}
+
+.useful-tips__icon {
+    margin-right: 10px;
+}
+
+.useful-tips__link {
+    text-decoration: none;
+    display: inline-block;
+
 }
