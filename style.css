@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 
 .button {
@@ -20,10 +20,10 @@
 
 body {
     background-color: #183D3D;
+    margin-top: 60px;
 }
 
 header {
-    margin-top: 60px;
     position: relative;
     height: 80vh;
     background-image: url(./assets/img/landingPagePhone.jpg);
@@ -38,7 +38,7 @@ header {
 
 .header__gradient {
     position: absolute;
-    top: 60;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -84,7 +84,7 @@ header {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 60px);
     list-style: none;
     background-color: #fff;
 }
@@ -349,6 +349,10 @@ header {
     margin-top: 15px;
 }
 
+.latest-news__container {
+    padding: 30px 20px;
+}
+
 .latest-news__header-container {
     color: #fff;
     text-align: center;
@@ -368,9 +372,7 @@ header {
     margin-bottom: 15px;
 }
 
-.latest-news__news-container {
-    padding: 30px 20px;
-}
+.latest-news__news-container {}
 
 .latest-news__message-container {
     background-color: #5C8374;
@@ -471,4 +473,20 @@ header {
 .contact-us__textarea {
     resize: none;
     height: 150px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer-information__header {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-information__text {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 15px;
 }
