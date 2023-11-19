@@ -385,6 +385,7 @@ header {
     border: none;
     margin-bottom: 20px;
     border-radius: 5px;
+    outline: none;
 }
 
 .contact-us__input::placeholder,
