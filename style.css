@@ -386,16 +386,22 @@ header {
     margin-bottom: 20px;
     border-radius: 5px;
     outline: none;
+    font-weight: 500;
 }
 
 .contact-us__input::placeholder,
 .contact-us__textarea::placeholder {
+    font-weight: 500;
     color: rgba(255, 255, 255, 0.7);
 }
 
 .contact-us__textarea {
     resize: none;
     height: 150px;
+}
+
+.contact-us__button {
+    cursor: pointer;
 }
 
 footer {
