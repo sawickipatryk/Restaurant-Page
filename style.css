@@ -8,6 +8,21 @@
     scroll-behavior: smooth;
 }
 
+.sub-header {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Dancing Script', cursive;
+}
+
+.header {
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
 .button {
     background-color: #C69749;
     color: #fff;
@@ -18,9 +33,23 @@
     font-weight: 600;
 }
 
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+
 body {
     background-color: #183D3D;
     margin-top: 60px;
+}
+
+.desktop-nav__links {
+    display: none;
 }
 
 header {
@@ -111,19 +140,6 @@ header {
     color: #fff;
 }
 
-.hero__sub-header {
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 15px;
-    color: rgba(255, 255, 255, 0.7);
-    font-family: 'Dancing Script', cursive;
-}
-
-.hero__header {
-    letter-spacing: 2px;
-    margin-bottom: 15px;
-}
-
 .hero__description {
     font-size: 14px;
     letter-spacing: 0.5px;
@@ -131,11 +147,6 @@ header {
     line-height: 130%;
     margin-bottom: 15px;
     color: rgba(255, 255, 255, 0.7);
-}
-
-.hero__link {
-    text-decoration: none;
-    display: inline-block;
 }
 
 .about {
@@ -148,29 +159,15 @@ header {
     margin-bottom: 10px;
 }
 
-.about__sub-header {
-    margin-bottom: 5px;
-    color: #fff;
-    font-size: 22px;
-    color: rgba(255, 255, 255, 0.7);
-    font-family: 'Dancing Script', cursive;
-}
-
-.about__header {
-    color: #fff;
-    font-size: 35px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
 .about__card {
-    height: 400px;
+    height: 500px;
     width: 100%;
     margin-bottom: 15px;
 }
 
 .about__img {
     height: 100%;
+    object-fit: cover;
     width: 100%;
 }
 
@@ -184,27 +181,9 @@ header {
     padding: 0 20px;
 }
 
-.card__sub-header {
-    font-size: 22px;
-    margin-bottom: 15px;
-    color: rgba(255, 255, 255, 0.7);
-    font-family: 'Dancing Script', cursive;
-}
-
-.card__header {
-    font-size: 35px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
-
 .card__sub-description {
     margin-bottom: 25px;
-}
-
-.card__sub-link {
-    text-decoration: none;
-    display: inline-block;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .our-special {
@@ -216,19 +195,6 @@ header {
 .our-special__text-container {
     margin-bottom: 15px;
     color: #fff;
-}
-
-.our-special__sub-header {
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: rgba(255, 255, 255, 0.7);
-    font-family: 'Dancing Script', cursive;
-}
-
-.our-special__header {
-    font-size: 35px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
 }
 
 .our-special__image-container {
@@ -272,20 +238,6 @@ header {
     background-color: #183D3D;
 }
 
-.useful-tips__sub-header {
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: rgba(255, 255, 255, 0.7);
-    font-family: 'Dancing Script', cursive;
-}
-
-.useful-tips__header {
-    font-size: 35px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
-
 .useful-tips__tip-container {
     display: flex;
     align-items: center;
@@ -297,12 +249,6 @@ header {
 
 .useful-tips__icon {
     margin-right: 10px;
-}
-
-.useful-tips__link {
-    text-decoration: none;
-    display: inline-block;
-
 }
 
 .useful-tips__img-container {
@@ -319,24 +265,11 @@ header {
     background-color: #5C8374;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     padding: 0 20px;
     height: 400px;
-}
-
-.best-special__sub-header {
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: rgba(255, 255, 255, 0.7);
-    font-family: 'Dancing Script', cursive;
-}
-
-.best-special__header {
-    font-size: 35px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
 }
 
 .best-special-text {
@@ -344,8 +277,6 @@ header {
 }
 
 .best-special-link {
-    display: inline-block;
-    text-decoration: none;
     margin-top: 15px;
 }
 
@@ -354,25 +285,8 @@ header {
 }
 
 .latest-news__header-container {
-    color: #fff;
     text-align: center;
 }
-
-.latest-news__sub-header {
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: rgba(255, 255, 255, 0.7);
-    font-family: 'Dancing Script', cursive;
-}
-
-.latest-news__header {
-    font-size: 35px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
-
-.latest-news__news-container {}
 
 .latest-news__message-container {
     background-color: #5C8374;
@@ -420,21 +334,16 @@ header {
     width: 100%;
     background-color: #183D3D;
     padding: 20px;
+    max-width: 600px;
 }
 
 .contact-us__sub-header {
     font-size: 22px;
     margin-bottom: 10px;
-    color: rgba(255, 255, 255, 0.7);
-    font-family: 'Dancing Script', cursive;
     text-align: center;
 }
 
 .contact-us__header {
-    color: #fff;
-    font-size: 35px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -480,13 +389,173 @@ footer {
     padding: 30px 20px;
 }
 
-.footer-information__header {
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
 .footer-information__text {
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 15px;
+}
+
+@media screen and (min-width:768px) {
+    .sub-header {
+        margin-bottom: 5px;
+        font-size: 24px;
+    }
+
+    .header {
+        font-size: 45px;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+
+    .hero__description {
+        font-size: 20px;
+        padding: 0 80px;
+    }
+
+    .about__cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .about__card {
+        height: 350px;
+        width: 32%;
+    }
+
+    .card__sub-header {
+        font-size: 15px;
+    }
+
+    .card__header {
+        font-size: 28px;
+    }
+
+    .latest-news__news-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .latest-news__message-container {
+        width: 32%;
+        margin-bottom: 0;
+        height: 460px;
+    }
+
+    .latest-news__image-container {
+        height: 220px;
+    }
+
+    .latest-news__image {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .footer-information__header {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width:1280px) {
+    header {
+        height: 62vh;
+    }
+
+    .sub-header {
+        margin-bottom: 10px;
+    }
+
+    .header {
+        margin-bottom: 40px;
+    }
+
+    body {
+        margin-top: 80px;
+    }
+
+    .nav__links {
+        display: none;
+    }
+
+    .toggle__menu {
+        display: none;
+    }
+
+    .nav__container {
+        padding: 0 40px;
+        height: 80px;
+    }
+
+    .nav__logo {
+        font-size: 30px;
+    }
+
+    .desktop-nav__links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+        height: 100%;
+        list-style: none;
+    }
+
+    .desktop-nav__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    .desktop-nav__link:hover {
+        color: #C69749;
+    }
+
+    .about {
+        padding: 60px 20px;
+    }
+
+    .about__card {
+        height: 500px;
+    }
+
+    .card__header {
+        font-size: 50px;
+    }
+
+    .our-special__menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .our-special__image-container {
+        display: grid;
+        width: 40%;
+    }
+
+    .our-special__image {
+        justify-self: right;
+        width: 90%;
+        object-fit: cover;
+    }
+
+    .our-special__image.left {
+        justify-self: left;
+    }
+
+    .our-special__menu-option {
+        margin-bottom: 25px;
+    }
+
+    .menu-option__name {
+        font-size: 20px;
+    }
+
 }
