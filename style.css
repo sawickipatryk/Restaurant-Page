@@ -624,6 +624,7 @@ footer {
 
     .latest-news__message-container {
         height: 500px;
+        cursor: pointer;
     }
 
     .latest-news__image-container {
