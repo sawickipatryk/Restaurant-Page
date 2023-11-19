@@ -8,6 +8,15 @@
     scroll-behavior: smooth;
 }
 
+html {
+    scroll-padding-top: 60px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
 .sub-header {
     margin-bottom: 5px;
     font-size: 22px;
@@ -276,6 +285,10 @@ header {
     color: rgba(255, 255, 255, 0.7);
 }
 
+.best-special__img-container {
+    display: none;
+}
+
 .best-special-link {
     margin-top: 15px;
 }
@@ -416,6 +429,8 @@ footer {
         align-items: center;
         justify-content: space-between;
         width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
     }
 
     .about__card {
@@ -460,6 +475,10 @@ footer {
 }
 
 @media screen and (min-width:1280px) {
+    html {
+        scroll-padding-top: 80px;
+    }
+
     header {
         height: 62vh;
     }
@@ -556,6 +575,71 @@ footer {
 
     .menu-option__name {
         font-size: 20px;
+    }
+
+    .useful-tips {
+        padding: 80px 20px;
+    }
+
+    .useful-tips__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .useful-tips__img-container {
+        display: grid;
+        width: 50%;
+    }
+
+    .best-special {
+        padding: 80px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .best-special__container {
+        flex-direction: row;
+        padding: 0;
+        width: 100%;
+        max-width: 1076px;
+        height: auto;
+    }
+
+    .best-special__left-container {
+        width: 50%;
+        padding: 0 50px;
+    }
+
+    .best-special__img-container {
+        width: 50%;
+        display: block;
+    }
+
+    .best-special__img {
+        width: 100%;
+    }
+
+    .latest-news__message-container {
+        height: 500px;
+    }
+
+    .latest-news__image-container {
+        height: 270px;
+    }
+
+    .latest-news__text {
+        line-height: 200%;
+    }
+
+    footer {
+        max-width: 760px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
     }
 
 }
